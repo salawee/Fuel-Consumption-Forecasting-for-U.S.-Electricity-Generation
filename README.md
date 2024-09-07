@@ -99,17 +99,13 @@ ARIMA models are fitted based on the results from the autocorrelation analysis. 
 
 #### Forecasting Models for Natural Gas Consumption
 
-Figure 10 serves as a visual representation of the forecasted NG consumption for the years 2023 
-and 2024, employing diverse forecasting methodologies. The benchmark methods, STL 
-decomposition, ETS method, and ARIMA method each contribute to a multifaceted analytical 
-approach, offering a nuanced understanding of the varied strategies employed in forecasting. This 
-rigorous methodology adheres to industry standards and contributes valuable insights to the realm 
-of energy planning and policy formulation. 
+Figure 10 serves as a visual representation of the forecasted NG consumption for the years 2023 and 2024, employing diverse forecasting methodologies. The benchmark methods, STL decomposition, ETS method, and ARIMA method each contribute to a multifaceted analytical approach, offering a nuanced understanding of the varied strategies employed in forecasting. This rigorous methodology adheres to industry standards and contributes valuable insights to the realm of energy planning and policy formulation. 
 
 <div align="center">
     <img src="https://github.com/user-attachments/assets/92f85531-821f-42ea-a0c8-c1fc17b64cc6">
 </div>
 
+<!--
 ####  Forecasting Models for Coal Consumption 
 
 <div align="center">
@@ -127,12 +123,14 @@ of energy planning and policy formulation.
 <div align="center">
     <img src="https://github.com/user-attachments/assets/4c7809b8-98b8-4168-b104-1c6b5ed1fbc2">
 </div>
+-->
 
 ## Results
 
 ### Model Performance
 Each model's performance was evaluated based on RMSE (Root Mean Squared Error), MAE (Mean Absolute Error), and other relevant metrics. Comparisons were made not only within the same fuel type but also across different models to ascertain their effectiveness under various conditions.
 
+<!--
 #### Natural Gas
 <div align="center">
     <img src="https://github.com/user-attachments/assets/6502c990-133f-4f69-ad1f-75143295ad88">
@@ -152,6 +150,15 @@ Each model's performance was evaluated based on RMSE (Root Mean Squared Error), 
 <div align="center">
     <img src="https://github.com/user-attachments/assets/23885392-2a05-41c7-9b65-eba9355ad35e">
 </div>
+-->
+
+### Analysis of forecasting trends for different energy streams
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/c81f3e13-d2bb-4956-b0f6-3c8cdbcbad95" height="250">
+</div>
+
+The projected consumption patterns for electricity generation in the USA from September 2023 to December 2024 highlight fluctuations in natural gas usage, with peaks in July and August 2024 due to increased cooling demand. Coal consumption shows minor variations, rising in December 2023, likely due to winter energy needs. Coke demand remains stable, with a slight peak in December 2023, reflecting consistent industrial use. Petroleum liquids maintain a steady consumption rate throughout the period, indicating a stable role in the energy mix. The forecast suggests that natural gas and coal are more affected by seasonal and market factors, while coke and petroleum liquids show stability, likely due to long-term contracts or stockpiling. Corroborating these projections with external sources is crucial for strategic energy planning and future demand management.
 
 ### Key Findings
 - **Natural Gas:** ETS models provided the best forecasts with the lowest RMSE, reflecting their strength in handling the series’ trend and seasonal components.
