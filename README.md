@@ -97,20 +97,61 @@ ETS models were used to forecast based on error, trend, and seasonal components.
 #### ARIMA (AutoRegressive Integrated Moving Average)
 ARIMA models are fitted based on the results from the autocorrelation analysis. We determined the optimal order of differencing (d), the number of lagged forecast errors in the prediction equation (q), and the size of the lagged observations (p) for each model.
 
-#### Benchmark Methods
-- **Mean:** Uses the average historical data to forecast future values.
-- **Naïve:** Forecasts future values as equal to the last observed value.
-- **Drift:** Assumes that the future values have a trend (drift) that is the same as the trend observed in the past.
-- **Seasonal Naïve:** Assumes that the future will resemble the past seasonally adjusted data.
+#### Forecasting Models for Natural Gas Consumption
+
+Figure 10 serves as a visual representation of the forecasted NG consumption for the years 2023 
+and 2024, employing diverse forecasting methodologies. The benchmark methods, STL 
+decomposition, ETS method, and ARIMA method each contribute to a multifaceted analytical 
+approach, offering a nuanced understanding of the varied strategies employed in forecasting. This 
+rigorous methodology adheres to industry standards and contributes valuable insights to the realm 
+of energy planning and policy formulation. 
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/92f85531-821f-42ea-a0c8-c1fc17b64cc6">
+</div>
+
+####  Forecasting Models for Coal Consumption 
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/7c76525e-b3dd-4c4c-b313-3da1a8de494b">
+</div>
+
+#### Forecasting Models for Petroleum Coke Consumption
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/8c5daeda-32e7-4733-8919-d7174962d462">
+</div>
+
+#### Forecasting Models for Petroleum Liquids Consumption
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/4c7809b8-98b8-4168-b104-1c6b5ed1fbc2">
+</div>
 
 ## Results
 
-<div align="center">
-    <img src="https://github.com/user-attachments/assets/215c412a-5cf0-46f0-818f-c486de038690" width="700">
-</div>
-
 ### Model Performance
 Each model's performance was evaluated based on RMSE (Root Mean Squared Error), MAE (Mean Absolute Error), and other relevant metrics. Comparisons were made not only within the same fuel type but also across different models to ascertain their effectiveness under various conditions.
+
+#### Natural Gas
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/6502c990-133f-4f69-ad1f-75143295ad88">
+</div>
+
+#### Coal
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/da0b921b-1551-4e92-ad2d-3dba4a2ab1eb">
+</div>
+
+#### Coak
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/7f186c88-3b2a-4277-b175-e9c8c286822f">
+</div>
+
+#### Petroleum Liquid
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/23885392-2a05-41c7-9b65-eba9355ad35e">
+</div>
 
 ### Key Findings
 - **Natural Gas:** ETS models provided the best forecasts with the lowest RMSE, reflecting their strength in handling the series’ trend and seasonal components.
