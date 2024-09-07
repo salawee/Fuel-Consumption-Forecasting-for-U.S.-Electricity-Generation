@@ -1,9 +1,9 @@
-# Fuel Consumption Forecasting for U.S. Electricity Generation
+# ⚡ Fuel Consumption Forecasting for U.S. Electricity Generation ⚡
 
-## Overview
+## 🔍 Overview
 This repository presents a comprehensive study on fuel consumption forecasting crucial for electricity generation in the United States. It covers data from 2015 to 2022 and employs advanced statistical and machine learning techniques to forecast future trends. This analysis supports policymakers, industry stakeholders, and academic researchers by providing insights into energy trends, promoting sustainable and efficient energy management.
 
-## Table of Contents
+## 📑Table of Contents
 - [Introduction](#introduction)
 - [Data Sources](#data-sources)
 - [Methodology](#methodology)
@@ -17,10 +17,10 @@ This repository presents a comprehensive study on fuel consumption forecasting c
 - [Contributions](#contributions)
 - [Citation](#citation)
 
-## Introduction
+## 📘Introduction
 This project undertakes an in-depth analysis of fuel consumption data, focusing on major fuels like coal, natural gas, and petroleum products used in U.S. electricity generation. The dynamic nature of the energy sector, influenced by policy changes, market conditions, and technological advancements, requires robust forecasting models that can adapt and predict with high accuracy.
 
-### Overall Trend Analysis of Fuel Consumption 
+### 📈Overall Trend Analysis of Fuel Consumption 
 The trends observed in fuel consumption over time, as depicted in Figure 1 shows the dynamics of various fuel types utilized in U.S. electricity generation. Natural gas consumption exhibits a 
 consistent upward trajectory from January 2016 to January 2022, with occasional fluctuations [6,11]. This notable increase, supported by statistical evidence [11] is attributed to several factors, including the growing preference for natural gas as a cleaner alternative, increased efficiency in gas‐powered plants, and a shift towards renewables in the energy mix. In contrast, coal consumption displays a fluctuating trend with distinct periods of growth and decline, reaching a significant trough in January 2020. 
 
@@ -28,12 +28,12 @@ consistent upward trajectory from January 2016 to January 2022, with occasional 
     <img src="https://github.com/user-attachments/assets/a970c1dc-cf66-4d53-b77d-4cb8849bfa4f" width="700">
 </div>
 
-## Data Sources
+## 🛠️Data Sources
 Data for this analysis was sourced from the U.S. Energy Information Administration (EIA), which provides detailed records of monthly and annual fuel consumption across various sectors. The dataset includes several fuel types and spans from January 2015 to December 2022, providing a solid foundation for historical analysis and future forecasting.
 
-## Methodology
+## 📊Methodology
 
-### Seasonality Analysis
+### ⏳Seasonality Analysis
 We first conducted a detailed analysis of seasonal consumption patterns for each type of fuel. Using graphical methods and statistical tests, we identified specific months where fuel consumption peaks due to factors such as heating demand in winter or cooling demand in summer. Seasonality effects are crucial for accurate forecasting, influencing the selection and configuration of subsequent models.
 
 ![image](https://github.com/user-attachments/assets/462cb9f3-bc7b-4538-b1f9-a37ed75b1e53)
@@ -66,7 +66,7 @@ We first conducted a detailed analysis of seasonal consumption patterns for each
 </div>
 -->
 
-### Autocorrelation Analysis
+### 🔄Autocorrelation Analysis
 Autocorrelation was analyzed using ACF (Autocorrelation Function) and PACF (Partial Autocorrelation Function) plots to identify the presence of any time-dependent structure in the data. This analysis helps in choosing the right parameters for ARIMA and other time-series models, ensuring that they accurately capture the dynamics of the data.
 
 ![image](https://github.com/user-attachments/assets/c23d5e4e-4796-45b1-b9c8-fa4dad26103c)
@@ -85,7 +85,7 @@ Autocorrelation was analyzed using ACF (Autocorrelation Function) and PACF (Part
 </div>
 -->
 
-### Forecasting Models
+### 🧠Forecasting Models
 Several models were employed to forecast future fuel consumption:
 
 #### STL (Seasonal and Trend decomposition using Loess)
@@ -125,9 +125,9 @@ Figure 10 serves as a visual representation of the forecasted NG consumption for
 </div>
 -->
 
-## Results
+## 🎯Results
 
-### Model Performance
+### 📊Model Performance
 Each model's performance was evaluated based on RMSE (Root Mean Squared Error), MAE (Mean Absolute Error), and other relevant metrics. Comparisons were made not only within the same fuel type but also across different models to ascertain their effectiveness under various conditions.
 
 <!--
@@ -152,7 +152,7 @@ Each model's performance was evaluated based on RMSE (Root Mean Squared Error), 
 </div>
 -->
 
-### Analysis of forecasting trends for different energy streams
+### 🔍Analysis of forecasting trends for different energy streams
 
 <div align="center">
     <img src="https://github.com/user-attachments/assets/c81f3e13-d2bb-4956-b0f6-3c8cdbcbad95" height="250">
@@ -160,16 +160,16 @@ Each model's performance was evaluated based on RMSE (Root Mean Squared Error), 
 
 The projected consumption patterns for electricity generation in the USA from September 2023 to December 2024 highlight fluctuations in natural gas usage, with peaks in July and August 2024 due to increased cooling demand. Coal consumption shows minor variations, rising in December 2023, likely due to winter energy needs. Coke demand remains stable, with a slight peak in December 2023, reflecting consistent industrial use. Petroleum liquids maintain a steady consumption rate throughout the period, indicating a stable role in the energy mix. The forecast suggests that natural gas and coal are more affected by seasonal and market factors, while coke and petroleum liquids show stability, likely due to long-term contracts or stockpiling. Corroborating these projections with external sources is crucial for strategic energy planning and future demand management.
 
-### Key Findings
+### 📊Key Findings
 - **Natural Gas:** ETS models provided the best forecasts with the lowest RMSE, reflecting their strength in handling the series’ trend and seasonal components.
 - **Coal:** STL models outperformed others, especially in capturing the coal consumption's decline over the study period.
 - **Petroleum Products:** ARIMA models excelled, indicating complex autoregressive behaviors in these data series.
 
-## Discussion
+## 💭Discussion
 The discussion section delves into the implications of our findings, discussing how accurate forecasts can influence policy-making, investment decisions, and operational strategies in the energy sector.
 
-## Contributions
+## 🤝Contributions
 Details on how to contribute to this project are available here. We encourage contributions from data scientists, economists, and energy experts.
 
-## Citation
-Please cite this work using the following format:
+## 📚Citation
+Please cite this work using the following format: Bhuiyan, M.M.H.; Sakib, A.N.; Alawee, S.I.; Razzaghi, T. Fueling the Future: A Comprehensive Analysis and Forecast of Fuel Consumption Trends in U.S. Electricity Generation. Sustainability 2024, 16, 2388
